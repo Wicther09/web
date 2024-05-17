@@ -13,6 +13,24 @@ body {
     font-weight: 300;
 }
 
+.imagen-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-bottom: 20px; /* Espacio entre la imagen y el contenido */
+}
+
+.imagen-container img {
+    max-width: 90%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantener la proporción de aspecto */
+}
+
+
+.road{
+    width: 500px;
+    height: 500px;
+}
+
 #particles-js {
 	height: 100vh; 
 	width: 100%;
@@ -99,6 +117,17 @@ body {
     display: inline-block;
     padding: 10px 20px;
     margin: 25px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3dff3e;
+    border: 1px solid #555555;
+    animation: parpadeo 2s linear infinite;
+    transition: .7s ease;
+}
+
+.btn-link{
+    display: inline-block;
+    padding: 10px 20px;
     text-transform: uppercase;
     text-decoration: none;
     color: #3dff3e;
